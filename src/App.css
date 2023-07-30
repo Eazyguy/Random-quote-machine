@@ -1,0 +1,57 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
+}
+
+body{
+     overflow:hidden;
+}
+
+.container {
+color:white;
+width:100vw;
+height:100vh;
+padding-top: 80%;
+}
+
+#copy{
+     position: relative;
+     top:-12px;
+     width: 45px;
+     height: 30px;
+     font-size: 12px;
+     padding:0;
+     border:2px solid #fff;
+     margin: 0 2px;
+}
+
+blockquote {
+    font-size: 20px;
+    font-style: italic;
+    margin: 0 20px 0  20px;
+    line-height: 1.45;
+    position: relative;
+    color: var(--color1);
+    white-space:wrap;
+    font-weight: 700;
+}
+
+
+blockquote cite {
+    color: var(--color1);
+    font-size: 14px;
+    display: block;
+    margin: 25px 10px 10px 0;
+}
+
+blockquote cite:before {
+    content: "\2014 \2009";
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
