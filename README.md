@@ -13,4 +13,4 @@ Israel Johnson
 
 ## Demo
 
-**[Click here to Preview this project here](https://eazyguy.github.io/Random-quote-machine/)**
+**[Click here to Preview this project here]([[https://eazyguy.github.io/Random-quote-machine/](https://eazyguy.github.io/Random-quote-machine-with-react/)**
